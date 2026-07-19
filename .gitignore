@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+.env
+
+# Generated training artifacts; retain the directory itself.
+models/*.joblib
+models/*.keras
+models/*.json
+models/*.csv
+
+# Generated intermediate data
+data/processed/*
+!data/processed/.gitkeep
