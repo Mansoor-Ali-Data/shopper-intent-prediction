@@ -14,8 +14,6 @@ CATEGORICAL_FEATURES = [
 ]
 
 
-import pandas as pd
-
 
 def add_engagement_features(frame: pd.DataFrame) -> pd.DataFrame:
     """
