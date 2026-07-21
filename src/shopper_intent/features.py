@@ -13,7 +13,18 @@ CATEGORICAL_FEATURES = [
     "TrafficType",
 ]
 
-
+NUMERIC_FEATURES = [
+    "Administrative",
+    "Administrative_Duration",
+    "Informational",
+    "Informational_Duration",
+    "ProductRelated",
+    "ProductRelated_Duration",
+    "BounceRates",
+    "ExitRates",
+    "PageValues",
+    "SpecialDay",
+]
 
 def add_engagement_features(frame: pd.DataFrame) -> pd.DataFrame:
     """
