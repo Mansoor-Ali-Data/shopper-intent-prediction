@@ -5,12 +5,6 @@ __pycache__/
 .venv/
 .env
 
-# Generated training artifacts; retain the directory itself.
-models/*.joblib
-models/*.keras
-models/*.json
-models/*.csv
-models/*.md
 
 # Generated intermediate data
 data/processed/*
