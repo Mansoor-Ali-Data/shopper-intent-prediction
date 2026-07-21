@@ -1,0 +1,38 @@
+{
+    "data_quality": {
+        "status": "PASS",
+        "warnings": []
+    },
+    "feature_drift": {
+        "status": "WARNING",
+        "drift_detected": true,
+        "drifted_features": [
+            "BounceRates",
+            "ExitRates"
+        ],
+        "statistics": {
+            "BounceRates": {
+                "train_mean": 0.02219138047072182,
+                "recent_mean": 0.034445026305,
+                "train_std": 0.048488321806260656,
+                "recent_std": 0.07267537630202515,
+                "mean_shift": 0.5521555405218602,
+                "std_shift": 0.49881197745771744
+            },
+            "ExitRates": {
+                "train_mean": 0.04307279776650446,
+                "recent_mean": 0.0538602664104,
+                "train_std": 0.048596540551443565,
+                "recent_std": 0.06294284244125681,
+                "mean_shift": 0.2504415492307534,
+                "std_shift": 0.2952063361030951
+            }
+        }
+    },
+    "retraining": {
+        "recommended": true,
+        "reason": "Feature drift detected.",
+        "timestamp": "2026-07-21T11:18:59.785970",
+        "batch_size": 500
+    }
+}

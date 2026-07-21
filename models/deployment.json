@@ -1,0 +1,7 @@
+{
+  "production_model": "random_forest",
+  "model_path": "models/random_forest.joblib",
+  "preprocessor_path": "models/preprocessor.joblib",
+  "model_version": "1.0.0",
+  "selection_reason": "Selected using weighted model selection (F1=45%, Latency=30%, ROC-AUC=15%, Model Size=10%). Overall Score = 0.7733."
+}
